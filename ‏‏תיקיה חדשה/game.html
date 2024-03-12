@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css.css">
+  <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+
+  <title>Document</title>
+</head>
+
+</head>
+
+<body>
+  <header>
+    <audio controls="controls" id="drops">
+      <source src="sound/succes.mp3" type="audio/mpeg" />
+    </audio>
+  </header>
+  <article>
+
+    <a href="game.html">
+       <input type="button" value="החלף שלב" id="stage3" class="toStage">
+    </a>
+    <a href="game.html">
+      <input type="button" value="לתחילת המשחק" id="stage4" class="toStage">
+   </a>
+    <div id="clock"> </div>
+    <div id="myModal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p><b>כל הכבוד !!<br> ניצחת!</b></p>
+        <div id="winner">
+
+        </div>
+        <input type="button" value="שלב 1" id="stage1" class="toStage5">
+        <input type="button" value="שלב 2" id="stage2" class="toStage5">
+        <a href="game.html">
+          <button type="submit" class="btn2" id="start_game">התחל משחק</button>
+        </a>
+        
+      </div>
+
+    </div>
+    <table id="table">
+      <tr class="tr1">
+        <td id="a0" class="td1"></td>
+        <td id="a1" class="td1"></td>
+        <td id="a2" class="td1"></td>
+        <td id="a3" class="td1"></td>
+      </tr>
+      <tr class="tr1">
+
+        <td id="a4" class="forArray forArray2"></td>
+        <td id="a5" class="forArray forArray2"></td>
+        <td id="a6" class="forArray forArray2"></td>
+        <td id="a7" class="td1 forArray2"></td>
+      </tr>
+      <tr class="tr1">
+        <td id="a8" class="forArray forArray2"></td>
+        <td id="a9" class="forArray forArray2"></td>
+        <td id="a10" class="forArray forArray2"></td>
+        <td id="a11" class="td1 forArray2"></td>
+
+      </tr>
+      <tr class="tr1">
+        <td id="a12" class="forArray forArray2"></td>
+        <td id="a13" class="forArray forArray2"></td>
+        <td id="a14" class="forArray forArray2"></td>
+        <td id="a15" class="td1 forArray2"></td>
+
+      </tr>
+
+    </table>
+
+  </article>
+  <footer>
+    <div id="cards"></div>
+    <div id="one_card"></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

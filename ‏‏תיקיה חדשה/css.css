@@ -1,0 +1,302 @@
+body {
+  background-image: url('תמונות/homepagebackgraund.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  direction: rtl;
+}
+body, html {
+  height: 96vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+* {
+  font-family: Botanika;
+}
+p{
+  font-style:  Ubuntu, sans-serif;
+  color: #f1f1f1;
+  font-size: 3vw;
+}
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9vh;
+  margin-bottom: auto;
+  max-width: 300px;
+  max-height: 500px;
+  padding: 16px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.btn {
+  background-color: #d28ad8;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 5px 0 22px 0;
+  border: #de3fec solid 0.5vw;
+  box-shadow: #211c22 2vw;
+}
+.btn:hover {
+    transform: scale(0.6);
+      transition-duration: 0.5s;
+      opacity: 0.5;
+}
+.btn2 {
+  background-color: #d28ad8;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 15px 15px 22px 25px;
+  border: #de3fec solid 0.5vw;
+  box-shadow: #211c22 2vw;
+}
+.btn2:hover {
+    transform: scale(0.6);
+      transition-duration: 0.5s;
+      opacity: 0.5;
+}
+.toStage{
+  background-color: #de3fec;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.8;
+  border-radius: 100%;
+  margin: 5px 0 22px 0;
+}
+.toStage:hover {
+  width: 70%;
+  transform: scale(0.6);
+  transition-duration: 0.5s;
+  opacity: 0.5;
+}
+.toStage5{
+  background-color: #de3fec;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.8;
+  border-radius: 100%;
+  margin: 15px 25px 22px 25px;
+}
+.toStage5:hover {
+  width: 40%;
+  transform: scale(0.6);
+  transition-duration: 0.5s;
+  opacity: 0.5;
+}
+  td {
+    border: 2px solid rgb(233, 99, 245);
+    border-collapse: collapse;
+    width: 0.1vw;
+    height: 0.1vh;
+  }
+  tbody{
+    max-width: 500px;
+  }
+  #table {
+    margin-left: auto;
+    margin-right: auto;
+    min-width:35vw;
+    min-height: 35vh;
+    margin-top: auto;
+    max-width: 40vw;
+  }
+  table{
+    width:35vw;
+    height: 35vh;
+  }
+
+  img {
+    width: 10vw;
+    border: 0.5vw solid pink;
+    max-width: 130px;
+    min-width: 50px;
+    height: auto;
+  }
+  #stage3{
+    width: 10vw;
+    position: absolute;
+    top:10vh;
+    left: 5vh;
+    font-size: 2vw;
+  }
+  #stage4{
+    width: 10vw;
+    position: absolute;
+    top:20vh;
+    left: 5vh;
+    font-size: 1.5vw;
+  }
+  #cards{
+    display: flex;
+    flex-wrap: nowrap;
+     justify-content:space-around;
+    border: 2px solid rgb(233, 99, 245);
+     width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #one_card{
+    border: 0.5vw solid rgb(233, 99, 245);
+     position: relative;
+     bottom: 20vh;
+     right: 7vw;
+    width: 13vw;
+    max-width: 145px;
+    min-width: 55px;
+    height: auto;
+  }
+  #cards > div {
+   max-width: 8%;
+  text-align: center;
+  margin: auto;
+  }
+  #cards > div >img{
+     max-width:100%;
+    text-align: center;
+    margin: auto;
+    }
+  header{
+    height: 7%;
+  }
+  footer{
+    height: 20%;
+  }
+  article{
+    height: 73%;
+  }
+  .buttonLight {
+    transform: scale(1.02);
+    box-shadow: rgb(0 0 0 / 80%) 0px 0px 15px;
+    opacity: 1;
+}
+#title{
+  width: 40vw;
+  border: none;
+  height: auto;
+  margin-top: 9vh;
+  max-width: 600px;
+  min-width: 150px;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); ;
+}
+.modal-content {
+  background-color: #db7ae3;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid rgb(214, 38, 176);
+  width: 60vw;
+  height: 50vh;
+}
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#clock {
+  position: sticky;
+  margin-right: 2vw;
+  margin-left: 80vw;
+  width: auto;
+  height: auto;
+  font-size: 50px;
+  font-weight: bold;
+}
+  @media(max-width: 650px){
+    #table {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #stage3{
+      width: 10vw;
+      top:4vh;
+      left:3vh;
+    }
+    #cards{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top:-19vh;
+    }
+    #clock {
+      font-size: 25px;
+      font-weight: bold;
+    }
+    #one_card{
+      border: 4px solid rgb(233, 99, 245);
+       width: 18vw;
+       position: relative;
+       bottom: 8vh;
+       height: 11vh;
+       margin-left: 45%;
+       margin-right: auto;
+       margin-top: 70px;
+    }
+    #cards > img {
+      min-width: 15vw;
+      }
+    img {
+      width: 15vw;
+      height: auto;
+    }
+  }
+  @media(max-height: 650px){
+
+    #table {
+      margin-left: auto;
+      margin-right: auto;
+      min-width:50vw;
+      min-height: 5;
+    }
+    #stage3{
+      width: 10vw;
+      top:4vh;
+      left:3vh;
+    }
+    #cards{
+      display: flex;
+      flex-wrap: wrap;
+      height: 150px;
+    }
+  }
